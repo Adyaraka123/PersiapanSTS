@@ -1,0 +1,145 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Galber;
+  src: url();
+}
+
+@font-face {
+  font-family: Poppins-black;
+  src: url(Poppins-Black.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-bold;
+  src: url(Poppins-SemiBold.ttf);
+}
+
+#Maxicon {
+  background-color: black;
+  height: 5000px;
+  display: flex;
+
+}
+.country {
+  display: flex;
+  padding-top: 200px;
+}
+.country img {
+  width: 50px;
+  margin-bottom: 10px;
+}
+.country p {
+  margin-left: 10px;
+  margin-top: 16px;
+  font-size: 14px;
+  font-family: Poppins-bold;
+  font-weight: 500;
+  color: white;
+}
+.country span {
+  font-family: Galber;
+  font-weight: 1000;
+  color: rgba(255, 255, 255, 1);
+}
+.left-side {
+  margin-left: 100px;
+}
+.left-side h1 {
+  color: white;
+  font-size: 60px;
+  font-family: Poppins;
+  font-weight: 2000;
+  width: 600px;
+}
+.left-side h2 {
+  font-size: 20px;
+  font-family: Poppins;
+  color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 300;
+}
+.left-side h3 {
+  font-family: Poppins;
+  color: rgb(198, 196, 196);
+  margin-bottom: 50px;
+  width: 500px;
+}
+.left-side span {
+  font-family: Poppins;
+  color: white;
+  font-weight: 1000;
+}
+
+/* BUTTON */
+.thebutton {
+  display: flex;
+  flex-direction: row;
+  margin-left: 0px;
+}
+.white {
+  justify-content: center;
+  display: flex;
+  background-color: white;
+  border-radius: 200px;
+  border: none;
+  width: 200px;
+  height: 80px;
+}
+.white p {
+  margin-top: 30px;
+  color: rgb(0, 0, 0);
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+}
+.white img {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.black {
+  margin-left: 20px;
+  justify-content: center;
+  display: flex;
+  background-color: rgba(161, 159, 159, 1);
+  border-radius: 200px;
+  border: none;
+  width: 250px;
+  height: 80px;
+  margin-bottom: 170px;
+}
+.black p {
+  margin-top: 30px;
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+}
+.black img {
+  margin-top: 30px;
+  margin-right: 10px;
+  
+}
+
+/* SHIELD DONE */
+.shield-done {
+  display: flex;
+}
+.shield-done h1 {
+  font-size: 15px;
+  margin-left: 15px;
+  
+}
+.shield-done img {
+  width:20px;
+  height: 20px;
+}
+

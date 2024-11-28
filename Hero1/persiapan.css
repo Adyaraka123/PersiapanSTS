@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: Galber;
+  src: url(./GalberDemoRegular-3zdJL.otf);
+}
+
+@font-face {
+  font-family: Poppins-black;
+  src: url(Poppins-Black.ttf);
+}
+@font-face {
+  font-family: Poppins;
+  src: url(Poppins-Regular.ttf);
+}
+@font-face {
+  font-family: Poppins-bold;
+  src: url(Poppins-SemiBold.ttf);
+}
+.grey {
+  background-color: #f5efe6;
+  margin-bottom: 200px;
+}
+
+.menu {
+  display: flex;
+  height: 720px;
+}
+
+.menu-left {
+  margin-top: 200px;
+  margin-left: 150px;
+}
+.menu-left h1 {
+  font-size: 80px;
+  width: 500px;
+  font-family: Galber;
+  font-weight: 550;
+  color: #34221F;
+}
+.menu-left p {
+  margin-top: 20px;
+  font-family: "Satoshi";
+  font-size: 24px;
+  width: 500px;
+  margin-bottom: 20px;
+  color: #545454;
+}
+.left-button {
+  font-size:17px;
+  font-family: "Satoshi";
+  font-weight: 600;
+  border: none;
+  border-radius: 10px;
+  height: 50px;
+  width: 200px;
+  color: rgba(255, 255, 255, 1);
+  background: linear-gradient(148.06deg, #EBA352 4.78%, #E56F8C 97.18%);
+
+}
+.menu-right img {
+  margin-top: -40px;
+  width: 500px;
+  margin-left: 300px;
+}
+
+
+
+/* MAXICOOOOOOOOOOOOOOOOOOOOOOOOON */
